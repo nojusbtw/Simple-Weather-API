@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body {
+    background-image: url("img/shore-914149_1280.jpg");
+    height: 100vh;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    font-size: 120%;
+    font-family: "Open Sans", sans-serif;
+}
+.card {
+    background-color: #000000d0;
+    color: #fff;
+    padding: 2rem;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 400px;
+}
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+button {
+    margin: 0.5rem;
+    width: 45px;
+    height: 45px;
+    border-radius: 45%;
+    outline: none;
+    border: none;
+    background-color: #7c7c7c2b;
+    color: #fff;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #7c7c7c6b;
+}
+
+input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.4rem 1rem;
+    border-radius: 30px;
+    font-size: 1rem;
+    height: 1.5rem;
+    color: #7c7c7c;
+}
+.temp {
+    margin-bottom: 0px;
+}
+.icon-desc {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
