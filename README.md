@@ -20,9 +20,9 @@ A simple JavaScript weather application that fetches real-time weather data usin
 
 ## 📸 Preview
 
-```md
+
 ![Image Preview](image.png)
-```
+
 
 ## 🚀 Getting Started
 
