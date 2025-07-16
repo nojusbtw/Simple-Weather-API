@@ -20,9 +20,8 @@ A simple JavaScript weather application that fetches real-time weather data usin
 
 ## 📸 Preview
 
-*(You can insert a screenshot here once ready)*  
 ```md
-![Weather App Screenshot](./screenshot.png)
+![Image Preview](image.png)
 ```
 
 ## 🚀 Getting Started
@@ -50,11 +49,6 @@ const weather = {
 };
 ```
 
-## ✍️ Usage
-
-1. Type a city name into the input field with `id="search-bar"`
-2. Click the button with the class `.search-button`
-3. Weather details will display on the screen
 
 ## 📁 File Structure
 
@@ -64,14 +58,6 @@ const weather = {
 ├── style.css
 └── script.js  # Contains the weather logic
 ```
-
-## ⚠️ Notes
-
-- Ensure you have a valid API key (some free keys have usage limits)
-- Weather icons are static (`04d.png` used by default). You can replace this:
-  ```js
-  document.querySelector(".icon").src = `https://openweathermap.org/img/wn/${icon}.png`;
-  ```
 
 ## 📄 License
 
